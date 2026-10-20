@@ -1,0 +1,77 @@
+* {
+    color: yellow;
+    background-color: black;
+}
+
+.alteracoes {
+    font-size: 20px;
+}
+
+.alteracoes table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+}
+
+.card-text {
+    color: yellow;
+}
+
+.col-md-4 {
+    height: auto;
+    width: auto;
+}
+
+#sites ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    table {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    th,
+    td {
+        padding: 6px;
+        font-size: 12px;
+    }
+}
